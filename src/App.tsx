@@ -100,21 +100,21 @@ const TEAM = [
   {
     name: 'Andrew',
     role: 'CEO',
-    desc: 'Leadership & strategy, driving vision and growth for intelligent livestock management.',
+    desc: 'Leadership & strategy, focused on practical day-to-day feedlot workflows.',
     linkedin: 'https://www.linkedin.com/in/andrew-uden-15182b9b/',
     photoSrc: '/team/andrew_headshot.webp',
   },
   {
     name: 'Jeff',
     role: 'CTO',
-    desc: 'Product & technology architecture, building scalable systems for data-driven insights.',
+    desc: 'Product & engineering, building reliable systems for daily reporting and operations.',
     linkedin: 'https://www.linkedin.com/in/jsmitchel/',
     photoSrc: '/team/jeff_headshot.webp',
   },
   {
     name: 'Garrett',
     role: 'Data Science & AI',
-    desc: 'Machine learning and predictive analytics, transforming data into actionable intelligence.',
+    desc: 'Analytics and models that turn yard data into clear alerts, trends, and reporting.',
     linkedin: 'https://www.linkedin.com/in/garrett-ducharme-28852592/',
     photoSrc: '/team/garrett_headshot.webp',
   },
@@ -205,14 +205,17 @@ function Hero() {
 
       <div className="relative mx-auto max-w-6xl px-6 text-center">
         <h1 className="mx-auto max-w-4xl text-4xl font-bold leading-tight tracking-tight md:text-6xl">
-          Real-time intelligence for modern feedlots.
+          Every pen. Every day. One place.
         </h1>
         <p className="mt-4 flex flex-col items-center justify-center gap-y-2 text-sm font-semibold uppercase tracking-widest text-[var(--brand)] sm:flex-row sm:gap-x-3 sm:gap-y-0 md:text-base">
-          <span className="whitespace-nowrap">PEN-LEVEL DETAIL</span>
+          <span className="whitespace-nowrap">PEN-LEVEL</span>
           <span className="mx-2 hidden text-xl leading-none sm:inline md:text-2xl">|</span>
-          <span className="whitespace-nowrap">YARD-WIDE OVERVIEW</span>
+          <span className="whitespace-nowrap">TREATMENTS &amp; HEADCOUNTS</span>
           <span className="mx-2 hidden text-xl leading-none sm:inline md:text-2xl">|</span>
-          <span className="whitespace-nowrap">ACTIONABLE ANALYTICS</span>
+          <span className="whitespace-nowrap">FEED EVENTS</span>
+        </p>
+        <p className="mx-auto mt-4 max-w-2xl text-[var(--text-secondary)]">
+          Daily updates on headcounts, treatments, and feed events. Works on phones, tablets, and desktops so you can check the yard anywhere. No report requests, no waiting.
         </p>
         <div className="mt-10 flex flex-col items-center gap-4 sm:flex-row sm:justify-center">
           <a
@@ -260,7 +263,7 @@ function Screenshot() {
               />
               <img
                 src="/screenshots/dashboard.webp"
-                alt="Cattlytx feedlot dashboard showing real-time headcounts, consumption alerts, and weather conditions"
+                alt="Cattlytx feedlot dashboard showing daily headcounts, consumption alerts, and weather conditions"
                 className="h-full w-full object-contain sm:object-cover sm:object-[75%_0%]"
                 loading="lazy"
               />
@@ -407,7 +410,7 @@ function Team() {
         <div className="text-center">
           <h2 className="text-3xl font-bold md:text-4xl">Meet the Team</h2>
           <p className="mx-auto mt-4 max-w-2xl text-[var(--text-secondary)]">
-            Experienced leaders combining agriculture expertise with cutting-edge technology
+            Experienced leaders with agriculture and software experience
           </p>
         </div>
 
