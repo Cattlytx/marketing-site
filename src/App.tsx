@@ -13,6 +13,7 @@ import {
 } from 'lucide-react';
 import { useState, useEffect } from 'react';
 import { track } from './lib/analytics';
+import { ChatWidget } from './components/chat/ChatWidget';
 
 /* ────────────────────────────────────────────────────────────
    Data
@@ -585,6 +586,7 @@ export default function App() {
         <Contact />
       </main>
       <Footer />
+      <ChatWidget />
     </>
   );
 }
